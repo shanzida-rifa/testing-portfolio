@@ -7,13 +7,17 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
 .link-button {
     text-decoration: none;
-    background-color: orange;
+
     padding: 10px 40px;
     border-radius: 5px;
     background-image: linear-gradient(lightsalmon, tomato);
@@ -21,8 +25,9 @@ h1 {
     font-weight: 700;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -34,7 +39,21 @@ section {
     width: 80%;
 }
 
-.top-banner {
+.top-banner1 {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.top-banner2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
 }
